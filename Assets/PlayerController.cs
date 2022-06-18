@@ -22,4 +22,8 @@ public class PlayerController : MonoBehaviour
 
         transform.Translate(mVec * Speed *  Time.deltaTime);
     }
+
+    private void OnCollisionEnter(Collision other) {
+        Debug.Log("Collision");
+    }
 }
