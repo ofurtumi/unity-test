@@ -1,0 +1,17 @@
+ {
+    "java.project.sourcePaths": [
+        ".",
+        "Töl-101"
+    ],
+    "files.exclude": {
+        "**/*.meta": true,
+        "**/*.asset": true,
+    },
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "stdlib.jar",
+        "libs/stdlib.jar",
+        "libs/algs4.jar"
+    ]
+}
+
